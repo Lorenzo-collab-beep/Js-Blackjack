@@ -19,43 +19,6 @@ const values = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'
 const suits = ['C', 'D', 'H', 'S'];
 const deck = shuffleDeck(buildDeck());
 
-/* const deck = [
-
-    "2-C", "4-D",    
-    "2-D", "6-S",    
-    "10-C", "10-H",    
-
-
-    "J-S", "6-C",
-    "Q-D", "8-H",
-    "2-H", "A-C",
-
-
-    "5-S", "9-D",
-    "5-H", "7-S",
-    "4-D", "2-S",
-
-    "2-C", "J-H",
-    "9-S", "5-C",
-
-
-    "9-H", "4-D",
-    "9-C", "3-S",
-    "6-H", "Q-D",
-
-    "A-S", "10-H",
-    "A-D", "2-D",
-    "8-C", "7-H",
-
-    "3-H", "K-D",
-    "3-D", "6-S",
-    "7-D", "4-C",
-
-    "2-C", "5-H",
-    "J-D", "6-H",
-    "K-C", "10-C",
-] */
-
 const discards = []
 
 const playerHands = [[]];
@@ -74,11 +37,6 @@ let chip3Count = 0;
 let chip4Count = 0;
 
 let splitCount = 0;
-
-
-// const deck = ['10-S',  '5-D', 'A-D', '6-H',  '10-D', '10-D', '2-S', '2-H', '2-D', '2-D', '2-S', '2-H', '2-D', '2-D', '2-S', '2-H',
-//   '2-D', '2-D', '2-S', '2-H', '2-D', '3-D', '2-S', '8-H', '2-D', '3-D', '2-S', '8-H', '2-D', '3-D', '2-S', '8-H'
-// ]
 
 
 // Gut deck cut at random position in range (deckSize/2, deckSize - "half a deck")
