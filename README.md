@@ -1,4 +1,7 @@
-original project I used for reference ((https://bmeinert8.github.io/is-blackjack/)) by Brian Meinert see 
+This Blackjack Trainer is a casino-style European blackjack game designed to practice card counting. 
+Player follows standard rules while improving strategy and tracking cards to maximize their chances of winning.
+
+Original project I used for reference ((https://bmeinert8.github.io/is-blackjack/)) by Brian Meinert see 
 (https://dev.to/bmeinert8/javascript-blackjack-51d2)
 
 PURPOSE:
@@ -20,5 +23,3 @@ RULES (The most common rules in real european casinos):
     \- The dealer does not check for BJ
     \- Split allowed on the same value for example (2, 2), (10, 10), (10, K) ...
     \- House Edge (0,77-0,78)%.
-
-I feel sorry for the code style of this project, I had never code a website before. The purpose of this game for me was to be able to train a python bot to be a perfect player and win the casino.  
